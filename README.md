@@ -1,5 +1,3 @@
 # Aspire-Project
 
-## ReactJs frontend with redux for state management
-
-## NodeJs+ MongoDb backend with MVC architecture
+## MERN Stack mini project completed for an internship at Aspire Software. MVC architecture with redx for state management.
