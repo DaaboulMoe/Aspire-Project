@@ -25,7 +25,7 @@ const StyledNavLink = styled(NavLink)(({ theme }) => ({
 const AppBarComponent = ({ isLoggedIn, onLogin, onLogout }) => {
    
   return (
-    <AppBar position="static" sx={{ py: 5, background: "transparent", boxShadow: 'none', paddingLeft: 'none', paddingRight: '0px' }}> 
+    <AppBar position="static" sx={{ py: 5, background: "transparent", boxShadow: 'none', paddingLeft: '0px', paddingRight: '0px' }}> 
       <Toolbar style={{ padding: '0' }}>
         <Logo to="/">
           <img src={logo} alt="Logo" height="50" />

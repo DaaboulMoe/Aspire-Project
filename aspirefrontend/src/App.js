@@ -29,13 +29,13 @@ const App = () => {
     <Box sx = {{ 
       backgroundColor: '#F4F4F4',
       backgroundImage: `url(https://www.aspiresoftware.com/wp-content/uploads/2022/09/Web-1920-%E2%80%93-1-1.png)`,
-  backgroundSize: 'contain',
-  backgroundPosition: 'center',
-  backgroundRepeat: 'repeat',
-  overflowY: 'auto',
-  height: '100vh',
-  px: 25,
-  }}>
+      backgroundSize: 'contain',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'repeat',
+      overflowY: 'auto',
+      height: '100vh',
+      px: 20,
+      }}>
       <AppBarComponent
         isLoggedIn={isLoggedIn}
         selectedOption={selectedOption}

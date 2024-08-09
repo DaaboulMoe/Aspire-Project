@@ -7,6 +7,8 @@ import cors from 'cors';
 const app = express();
 const PORT = process.env.PORT || 3000; 
 
+
+
 mongoose.connect('mongodb+srv://oratebot:RIaCn4lTXDDnX6XL@aspirebackend.d7glbau.mongodb.net/?retryWrites=true&w=majority&appName=aspirebackend', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
